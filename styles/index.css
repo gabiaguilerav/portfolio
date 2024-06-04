@@ -1,0 +1,19 @@
+body {
+  margin: 0 90px;
+}
+
+.navbar {
+  height: 78px;
+}
+.navbar-brand {
+  font-size: 24px;
+}
+.nav-link {
+  font-size: 18px;
+}
+
+h2 {
+  margin-top: 236px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
