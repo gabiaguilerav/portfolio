@@ -21,17 +21,17 @@
 
   <body>
     <nav
-      class="navbar bg-dark navbar-expand-lg bg-body-black fixed-top d-flex"
+      class="navbar navbar-expand-lg bg-black fixed-top"
       data-bs-theme="dark"
     >
       <div class="container-fluid col-10">
-        <a class="navbar-brand" href="/"> Gabriela Aguilera</a>
+        <a class="navbar-brand" href="/">Gabriela Aguilera</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -39,29 +39,20 @@
         </button>
         <div
           class="collapse navbar-collapse justify-content-end"
-          id="navbarSupportedContent"
+          id="navbarNav"
         >
-          <ul class="navbar-nav mb-2 mb-lg-0">
+          <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/about.html"
-                >About me</a
-              >
+              <a class="nav-link" href="/about.html">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/work.html"
-                >My work</a
-              >
+              <a class="nav-link" href="/work.html">My work</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="/contact.html"
-                >Contact me</a
-              >
+              <a class="nav-link" href="/contact.html">Contact me</a>
             </li>
           </ul>
         </div>
@@ -74,8 +65,8 @@
       <h3>I’m a mexican web developer based in the Netherlands.</h3>
     </div>
 
-    <div class="d-flex justify-content-center">
-      <button type="button" class="btn btn-secondary">
+    <div class="d-flex justify-content-center homepage-button">
+      <button type="button" class="btn buttons">
         <a href="/contact.html">Contact me</a>
       </button>
     </div>
@@ -84,10 +75,7 @@
       <div class="row d-flex justify-content-center">
         <div class="col-md-6">
           <div class="d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-secondary justify-content-center"
-            >
+            <button type="button" class="btn buttons justify-content-center">
               <a
                 href="https://world-clock-by-gabriela.netlify.app"
                 target="_blank"
@@ -103,13 +91,10 @@
         </div>
       </div>
 
-      <div class="row d-flex justify-content-center">
+      <div class="row d-flex justify-content-center second-project">
         <div class="col-md-6">
           <div class="d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-secondary justify-content-center"
-            >
+            <button type="button" class="btn buttons justify-content-center">
               <a
                 href="https://vegan-recipes-by-gabriela.netlify.app"
                 target="_blank"
@@ -125,13 +110,10 @@
         </div>
       </div>
 
-      <div class="row d-flex justify-content-center">
+      <div class="row d-flex justify-content-center second-project">
         <div class="col-md-6">
           <div class="d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-secondary justify-content-center"
-            >
+            <button type="button" class="btn buttons justify-content-center">
               <a
                 href="https://weatherapp-by-gabriela.netlify.app"
                 target="_blank"
@@ -149,41 +131,58 @@
     </div>
 
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <span>
-              <img src="/images/envelope.png" alt="email icon" />
-              <p>gabiaguilerava@gmail.com</p>
-            </span>
-          </div>
+      <div class="container-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <span>
+                <p>gabiaguilerava@gmail.com</p>
+              </span>
+            </div>
 
-          <div class="col-md-4">
-            <span>
-              <img src="/images/github-square.png" alt="github icon" />
-              <p>My Github profile</p>
-            </span>
-          </div>
+            <div class="col-md-4">
+              <span>
+                <img
+                  src="/images/github-square.png"
+                  alt="github icon"
+                  class="icon"
+                />
+                <a href="https://github.com/gabiaguilerav" target="_blank"
+                  >My Github profile</a
+                >
+              </span>
+            </div>
 
-          <div class="col-md-4">
-            <span>
-              <img src="/images/linkedin.png" alt="linkedin icon" />
-              <p>My Linkedin profile</p>
-            </span>
+            <div class="col-md-4">
+              <span>
+                <img
+                  src="/images/linkedin.png"
+                  alt="linkedin icon"
+                  class="icon"
+                />
+                <a
+                  href="https://www.linkedin.com/in/gabriela-aguilera-hg/"
+                  target="_blank"
+                  >My Linkedin profile</a
+                >
+              </span>
+            </div>
           </div>
         </div>
+        <div>
+          Coded by
+          <a href="https://github.com/gabiaguilerav" target="_blank"
+            >Gabriela Aguilera</a
+          >. Open-sourced on
+          <a
+            href="https://github.com/gabiaguilerav/portfolio.git"
+            target="_blank"
+            >Github</a
+          >
+          <br />
+          2024
+        </div>
       </div>
-      <p>
-        Coded by
-        <a href="https://github.com/gabiaguilerav" target="_blank"
-          >Gabriela Aguilera</a
-        >. Open-sourced on
-        <a href="https://github.com/gabiaguilerav/portfolio.git" target="_blank"
-          >Github</a
-        >
-        <br />
-        2024
-      </p>
     </footer>
   </body>
 </html>

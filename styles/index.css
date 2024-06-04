@@ -1,10 +1,13 @@
-body {
-  margin: 0 90px;
+:root {
+  --font-family: Arial, Helvetica, sans-serif;
+  --purple: #d4c6dc;
+  --grey: #78777a;
 }
 
-.navbar {
-  height: 78px;
+body {
+  margin: 0 auto;
 }
+
 .navbar-brand {
   font-size: 24px;
 }
@@ -19,9 +22,81 @@ body {
 }
 
 h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-family);
+  font-size: 25px;
 }
 
 h1 {
   font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: var(--font-family);
+  font-size: 23px;
+  font-weight: 100;
+  margin-top: 30px;
+}
+
+.buttons {
+  background-color: var(--purple);
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+.buttons a {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.buttons:hover {
+  border: 1px solid var(--purple);
+  color: white;
+}
+
+.homepage-button {
+  margin-top: 80px;
+  margin-bottom: 35px;
+}
+
+.projects-homepage {
+  background-color: var(--grey);
+  border-radius: 10px;
+  padding: 70px 0;
+  margin-bottom: 180px;
+}
+
+.second-project {
+  margin-top: 80px;
+}
+
+footer {
+  background-color: var(--grey);
+  color: white;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+footer a {
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+footer a:hover {
+  color: black;
+}
+
+.icon {
+  width: 25px;
+}
+
+.container-footer {
+  padding: 35px;
 }
