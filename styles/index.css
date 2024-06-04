@@ -100,3 +100,33 @@ footer a:hover {
 .container-footer {
   padding: 35px;
 }
+
+@media (max-width: 900px) {
+  .hero {
+    margin-top: 190px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  footer {
+    font-size: 18px;
+  }
+
+  .icon {
+    width: 18px;
+  }
+
+  .credits {
+    margin-top: 20px;
+  }
+}
