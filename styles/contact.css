@@ -1,0 +1,110 @@
+:root {
+  --font-family: Arial, Helvetica, sans-serif;
+  --purple: #d4c6dc;
+  --grey: #78777a;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+.nav-link {
+  font-size: 18px;
+}
+
+.hero {
+  text-align: center;
+  color: black;
+  margin-top: 236px;
+  margin-bottom: 30px;
+}
+
+.data {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.data img {
+  margin-top: 60px;
+  width: 80px;
+}
+
+.data a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: all 200ms ease-in-out;
+}
+
+.data a:hover {
+  color: var(--grey);
+}
+
+footer {
+  background-color: var(--grey);
+  color: white;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+footer a {
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+footer a:hover {
+  color: black;
+}
+
+.icon {
+  width: 25px;
+}
+
+.container-footer {
+  padding: 35px;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    margin-top: 190px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .data {
+    font-size: 25px;
+    margin-bottom: 120px;
+  }
+
+  .data img {
+    margin-top: 40px;
+    width: 60px;
+  }
+
+  .data a {
+    font-weight: 500;
+  }
+
+  footer {
+    font-size: 16px;
+  }
+
+  .icon {
+    width: 14px;
+  }
+
+  .credits {
+    margin-top: 20px;
+  }
+}
