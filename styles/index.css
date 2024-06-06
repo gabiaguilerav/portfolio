@@ -74,6 +74,10 @@ h3 {
   margin-top: 80px;
 }
 
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 footer {
   background-color: var(--grey);
   color: white;
@@ -119,11 +123,11 @@ footer a:hover {
   }
 
   footer {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .icon {
-    width: 18px;
+    width: 14px;
   }
 
   .credits {
