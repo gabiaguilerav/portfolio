@@ -55,7 +55,7 @@ h3 {
 
 .buttons:hover {
   border: 1px solid var(--purple);
-  color: white;
+  background-color: white;
 }
 
 .homepage-button {
@@ -76,6 +76,7 @@ h3 {
 
 .shadow {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
 }
 
 footer {

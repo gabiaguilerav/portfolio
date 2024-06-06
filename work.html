@@ -15,10 +15,195 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>My work</title>
   </head>
 
   <body>
-    <h1>Work</h1>
+    <nav
+      class="navbar navbar-expand-lg bg-black fixed-top"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid col-10">
+        <a class="navbar-brand" href="/">Gabriela Aguilera</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/work.html">My work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <h1>My work</h1>
+    </div>
+
+    <div class="container projects center">
+      <div class="row justify-content-center">
+        <div class="col-10 col-sm-9 col-md-6">
+          <img
+            src="/images/clock.png"
+            alt="World clock app"
+            class="img-fluid shadow"
+          />
+        </div>
+
+        <div class="col-10 col-sm-9 col-md-4">
+          <div class="d-flex justify-content-center">
+            <button type="button" class="btn buttons justify-content-center">
+              <a
+                href="https://world-clock-by-gabriela.netlify.app"
+                target="_blank"
+                >World clock app</a
+              >
+            </button>
+          </div>
+          <div>
+            <p class="description">
+              This app is a world clock that gives the exact real time from
+              different time zones. The main component from it is javascript (js
+              moment)
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center second-project">
+        <div class="col-10 col-sm-9 col-md-6">
+          <img
+            src="/images/recipes.png"
+            alt="Vegan recipes generator app"
+            class="img-fluid shadow"
+          />
+        </div>
+
+        <div class="col-10 col-sm-9 col-md-4">
+          <div class="d-flex justify-content-center">
+            <button type="button" class="btn buttons justify-content-center">
+              <a
+                href="https://vegan-recipes-by-gabriela.netlify.app"
+                target="_blank"
+                >Vegan recipes generator app</a
+              >
+            </button>
+          </div>
+          <div>
+            <p class="description">
+              This app helps you to create easy and tasty vegan recipes with the
+              ingredients that you have available at home. The app is powered by
+              AI.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center second-project">
+        <div class="col-10 col-sm-9 col-md-6">
+          <img
+            src="/images/weather.png"
+            alt="Weather app"
+            class="img-fluid shadow"
+          />
+        </div>
+
+        <div class="col-10 col-sm-9 col-md-4">
+          <div class="d-flex justify-content-center">
+            <button type="button" class="btn buttons justify-content-center">
+              <a
+                href="https://weatherapp-by-gabriela.netlify.app"
+                target="_blank"
+                >Weather app</a
+              >
+            </button>
+          </div>
+          <div>
+            <p class="description">
+              This is a weather forecast app that shows real information about a
+              lot of different cities in the world. The app works thanks to its
+              javascript development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <span>
+                <p>gabiaguilerava@gmail.com</p>
+              </span>
+            </div>
+
+            <div class="col-sm-3">
+              <span>
+                <img
+                  src="/images/github-square.png"
+                  alt="github icon"
+                  class="icon"
+                />
+                <a href="https://github.com/gabiaguilerav" target="_blank"
+                  >My Github profile</a
+                >
+              </span>
+            </div>
+
+            <div class="col-sm-3">
+              <span>
+                <img
+                  src="/images/linkedin.png"
+                  alt="linkedin icon"
+                  class="icon"
+                />
+                <a
+                  href="https://www.linkedin.com/in/gabriela-aguilera-hg/"
+                  target="_blank"
+                  >My Linkedin profile</a
+                >
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="credits">
+          Coded by
+          <a href="https://github.com/gabiaguilerav" target="_blank"
+            >Gabriela Aguilera</a
+          >. Open-sourced on
+          <a
+            href="https://github.com/gabiaguilerav/portfolio.git"
+            target="_blank"
+            >Github</a
+          >
+          <br />
+          2024
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
